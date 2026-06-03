@@ -3,7 +3,7 @@ const API_TOKEN = process.env.API_TOKEN;
 
 const BASE_WEB_URL = "https://theplayzone.rf.gd";
 const DEFAULT_TOKO = "R40 CENGKARENG";
-const API_LAPORAN_TIKET = BASE_WEB_URL + "/api_laporan_tiket.php";
+const API_LAPORAN_TIKET = BASE_WEB_URL + "/api_laporan_ticket.php";
 
 function bulanToNumber(text) {
   text = String(text || "").toLowerCase();
